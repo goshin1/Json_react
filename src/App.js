@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header';
+import DayList from './component/DayList';
+import Day  from './component/Day';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import EmptyPage from './component/EmptyPage';
+import CreateWord from './component/CreateWord';
 
 function App() {
+  const name = "Tom";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Header></Header>
+        <Routes>
+          <Route exact path='/' element={<DayList></DayList>}/>
+          <Route exact path='/day/:day' element={<Day></Day>}/>
+          <Route exact path='/create_word' element={<CreateWord></CreateWord>}/>
+          <Route path='' element={<EmptyPage></EmptyPage>}/>
+        </Routes>
+
+      </BrowserRouter>
     </div>
   );
 }
