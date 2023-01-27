@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function CreateDay(){
     const days = useFetch("http://localhost:3001/days");
     const navigate = useNavigate();
-    const [isLoading, setIsLoading] = useState();
+    const [isLoading, setIsLoading] = useState(false);
 
     function addDay(){
         fetch(`http://localhost:3001/days`, {

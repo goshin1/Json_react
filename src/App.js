@@ -19,10 +19,9 @@ function App() {
           <Route exact path='/' element={<DayList></DayList>}/>
           <Route exact path='/day/:day' element={<Day></Day>}/>
           <Route exact path='/create_word' element={<CreateWord></CreateWord>}/>
-          <Route path='' element={<EmptyPage></EmptyPage>}/>
-          <Route path='/create_day' element={<CreateDay></CreateDay>} />
+          <Route exact path='/create_day' element={<CreateDay></CreateDay>} />
+          <Route path='*' element={<EmptyPage></EmptyPage>}/>
         </Routes>
-
       </BrowserRouter>
     </div>
   );
