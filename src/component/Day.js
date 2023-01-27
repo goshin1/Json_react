@@ -18,7 +18,9 @@ export default function Day(){
     //         setWords(data);
     //     })
     // }, [day]);
-
+    if(words.length === 0){
+        return <span>Loading....</span>
+    }
 
     return <>
         <h2>Day {day}</h2>

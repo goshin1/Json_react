@@ -6,6 +6,7 @@ import Day  from './component/Day';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import EmptyPage from './component/EmptyPage';
 import CreateWord from './component/CreateWord';
+import CreateDay from './component/CreateDay';
 
 function App() {
   const name = "Tom";
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/day/:day' element={<Day></Day>}/>
           <Route exact path='/create_word' element={<CreateWord></CreateWord>}/>
           <Route path='' element={<EmptyPage></EmptyPage>}/>
+          <Route path='/create_day' element={<CreateDay></CreateDay>} />
         </Routes>
 
       </BrowserRouter>
