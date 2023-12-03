@@ -19,6 +19,10 @@
     {
       "day": 5,
       "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
     }
   ],
   "words": [
@@ -66,16 +70,9 @@
     },
     {
       "day": "4",
-      "eng": "monkey",
-      "kor": "원숭이",
-      "isDone": false,
-      "id": 10
-    },
-    {
-      "day": "4",
       "eng": "apple",
       "kor": "사과",
-      "isDone": false,
+      "isDone": true,
       "id": 11
     },
     {
@@ -105,6 +102,13 @@
       "kor": "컴퓨터",
       "isDone": false,
       "id": 16
+    },
+    {
+      "day": "1",
+      "eng": "no",
+      "kor": "ㄴㄴㄴ",
+      "isDone": false,
+      "id": 17
     }
   ]
 }

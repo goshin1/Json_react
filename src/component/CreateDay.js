@@ -14,7 +14,7 @@ export default function CreateDay(){
                 "Content-Type" : "application/json",
             },
             body : JSON.stringify({
-               day : days.length + 1
+                day : days.length + 1
             })
         }).then(res => {
             if(res.ok) {
