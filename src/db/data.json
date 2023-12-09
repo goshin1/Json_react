@@ -23,16 +23,17 @@
     {
       "day": 6,
       "id": 6
+    },
+    {
+      "day": 7,
+      "id": 7
+    },
+    {
+      "day": 8,
+      "id": 8
     }
   ],
   "words": [
-    {
-      "id": 1,
-      "day": 1,
-      "eng": "book",
-      "kor": "책",
-      "isDone": true
-    },
     {
       "id": 3,
       "day": 2,
@@ -41,39 +42,11 @@
       "isDone": false
     },
     {
-      "id": 5,
-      "day": 3,
-      "eng": "school",
-      "kor": "학교",
-      "isDone": true
-    },
-    {
-      "id": 6,
-      "day": 3,
-      "eng": "pencil",
-      "kor": "연필",
-      "isDone": false
-    },
-    {
-      "day": "3",
-      "eng": "window",
-      "kor": "창문",
-      "isDone": false,
-      "id": 7
-    },
-    {
       "day": "3",
       "eng": "house",
       "kor": "집",
       "isDone": false,
       "id": 8
-    },
-    {
-      "day": "4",
-      "eng": "apple",
-      "kor": "사과",
-      "isDone": true,
-      "id": 11
     },
     {
       "day": "3",
@@ -109,6 +82,27 @@
       "kor": "ㄴㄴㄴ",
       "isDone": false,
       "id": 17
+    },
+    {
+      "day": "6",
+      "eng": "computer",
+      "kor": "컴퓨터",
+      "isDone": false,
+      "id": 18
+    },
+    {
+      "day": "4",
+      "eng": "enthusiasm",
+      "kor": "열광",
+      "isDone": false,
+      "id": 19
+    },
+    {
+      "day": "7",
+      "eng": "place",
+      "kor": "두다, 장소",
+      "isDone": false,
+      "id": 20
     }
   ]
 }
